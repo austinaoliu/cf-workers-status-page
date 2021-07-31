@@ -16,9 +16,9 @@ settings:
 
 monitors:
   - id: personal_blog # unique identifier
-    name: www.aoliu.dev
+    name: Personal Blog
     description: 'My Personal Blog.' # default=empty
-    url: 'www.aoliu.dev' # URL to fetch
+    url: 'https://www.aoliu.dev' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
