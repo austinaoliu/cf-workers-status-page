@@ -34,7 +34,7 @@ monitors:
     linkable: false # allows the title to be a link, default=true
 
   - id: rss-hub # unique identifier
-    name: RSS Web
+    name: RSS Hub
     description: 'RSS Hub' # default=empty
     url: 'https://rsshub.pacifica.dev' # URL to fetch
     method: GET # default=GET
