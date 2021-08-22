@@ -27,7 +27,7 @@ monitors:
   - id: rss_reader # unique identifier
     name: RSS Web
     description: 'Online RSS reader.' # default=empty
-    url: 'https://rss.pacifica.dev' # URL to fetch
+    url: 'https://rss.pacifica.dev/tt-rss/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
